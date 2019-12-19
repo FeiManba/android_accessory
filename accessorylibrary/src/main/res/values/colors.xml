@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dividing_line_color">#f0f0f0</color>
+    <color name="color_black">#666666</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bg_head">#24cfd6</color>
+    <color name="tool_bar_bg">#24cfd6</color>
+</resources>
