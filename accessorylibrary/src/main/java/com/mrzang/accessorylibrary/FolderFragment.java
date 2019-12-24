@@ -26,6 +26,7 @@ import com.mrzang.accessorylibrary.utils.SourceUrlUtils;
 import java.io.File;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
+import java.util.Collections;
 
 
 /**
@@ -112,6 +113,7 @@ public class FolderFragment extends Fragment {
                 mReNoSourceHint.setVisibility(View.VISIBLE);
                 mRvDoc.setVisibility(View.GONE);
             } else {
+                Collections.sort(allChatFileModels);
                 mReNoSourceHint.setVisibility(View.GONE);
                 mRvDoc.setVisibility(View.VISIBLE);
                 mRvDoc.setHasFixedSize(true);
@@ -128,6 +130,7 @@ public class FolderFragment extends Fragment {
                 mReNoSourceHint.setVisibility(View.VISIBLE);
                 mRvDoc.setVisibility(View.GONE);
             } else {
+                Collections.sort(qqChatFileModels);
                 mReNoSourceHint.setVisibility(View.GONE);
                 mRvDoc.setVisibility(View.VISIBLE);
                 mRvDoc.setHasFixedSize(true);
@@ -144,6 +147,7 @@ public class FolderFragment extends Fragment {
                 mReNoSourceHint.setVisibility(View.VISIBLE);
                 mRvDoc.setVisibility(View.GONE);
             } else {
+                Collections.sort(weChatFileModels);
                 mReNoSourceHint.setVisibility(View.GONE);
                 mRvDoc.setVisibility(View.VISIBLE);
                 mRvDoc.setHasFixedSize(true);

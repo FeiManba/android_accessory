@@ -45,6 +45,7 @@
         android:background="@android:color/white"
         app:tabGravity="center"
         app:tabIndicator="@drawable/y_shape_tab_line"
+        app:tabIndicatorFullWidth="false"
         app:tabIndicatorHeight="3dp"
         app:tabMaxWidth="320dp"
         app:tabTextColor="#222222" />
