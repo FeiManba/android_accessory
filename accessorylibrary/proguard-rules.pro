@@ -19,3 +19,14 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+#第三方包不混淆
+-dontwarn com.mrzang.accessorylibrary**
+-keep class com.mrzang.accessorylibrary.**{*;}
+-keep interface  com.mrzang.accessorylibrary.**{*;}
+
+#easyPermissionGranted
+-dontwarn pub.devrel.easypermissions**
+-keep class pub.devrel.easypermissions.**{*;}
+-keep interface pub.devrel.easypermissions.**{*;}
+

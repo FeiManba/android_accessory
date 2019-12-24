@@ -5,7 +5,7 @@ import android.text.TextUtils;
 import com.mrzang.accessorylibrary.FileModel;
 
 import java.io.File;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
 /**
  * @author : mr.zang
@@ -30,21 +30,21 @@ public final class FileSearchingUtils {
         return instance;
     }
 
-    private LinkedList<FileModel> weChatFileModels = new LinkedList<>();
+    private ArrayList<FileModel> weChatFileModels = new ArrayList<>();
 
-    private LinkedList<FileModel> qqChatFileModels = new LinkedList<>();
+    private ArrayList<FileModel> qqChatFileModels = new ArrayList<>();
 
-    private LinkedList<FileModel> allChatFileModels = new LinkedList<>();
+    private ArrayList<FileModel> allChatFileModels = new ArrayList<>();
 
-    public LinkedList<FileModel> getWeChatFileModels() {
+    public ArrayList<FileModel> getWeChatFileModels() {
         return weChatFileModels;
     }
 
-    public LinkedList<FileModel> getQqChatFileModels() {
+    public ArrayList<FileModel> getQqChatFileModels() {
         return qqChatFileModels;
     }
 
-    public LinkedList<FileModel> getAllChatFileModels() {
+    public ArrayList<FileModel> getAllChatFileModels() {
         return allChatFileModels;
     }
 
